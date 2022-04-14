@@ -1,0 +1,206 @@
+* {
+  font-family: "Raleway";
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+#header {
+  display: block;
+  letter-spacing: 4px;
+  color: white;
+}
+#header img {
+  width: 100%;
+  filter: grayscale(50%);
+  position: relative;
+  margin-top: -140px;
+  background-color: #ffdddd;
+}
+#header div {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+#header h1 {
+  font-size: 64px;
+}
+#header h2 {
+  font-size: 30px;
+  margin: 10px 0;
+
+}
+#header {
+    display: block;
+    float: none;
+    content: '';
+    clear: both;
+}
+#fixed {
+  width: 100%;
+  background-color: white;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  z-index: 9999;
+}
+#fixed:hover {
+  opacity: 1;
+}
+#fixed div {
+  display: block;
+  padding: 8px 16px;
+}
+#fixed div:after {
+  float: none;
+  clear: both;
+  display: block;
+  content: "";
+}
+#fixed div a {
+  list-style: 1.5;
+  display: block;
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  padding: 8px 16px;
+  width: 23%;
+  float: left;
+  overflow: hidden;
+}
+#fixed a:hover {
+  background-color: #ccc;
+}
+#fixed a:last-child:hover {
+  background-color: black;
+  color: white;
+}
+#section {
+  width: 100%;
+  background-color: #f2e1e1;
+}
+.section1 {
+  display: block;
+  width: 980px;
+  text-align: center;
+  margin: auto;
+}
+.section1 p {
+  text-align: left;
+  line-height: 1.5;
+  margin: 32px 0;
+}
+.section1 p:last-child {
+  text-align: center;
+}
+.section1 p a {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding: 8px 16px;
+}
+.section1 p a:hover {
+  background-color: #ccc;
+  color: black;
+}
+.section2 {
+  width: 100%;
+  margin: auto;
+  position: relative;
+}
+.section2 img {
+  width: 100%;
+}
+.section2 div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  color: white;
+}
+.section2 div h1 {
+  font-size: 64px;
+  margin: 10px 0;
+}
+.section2 div h2 {
+  font-size: 30px;
+  margin: 10px 0;
+}
+#background_color2 {
+  background-color: #f2e1e1;
+  width: 100%;
+
+}
+#wedding {
+  width: 980px;
+  margin: auto;
+  text-align: center;
+  display: block;
+}
+#wedding > div > h1 {
+  color: #757575;
+  margin: 30px;
+}
+#wedding > div > div {
+  margin-bottom: 60px;
+}
+#wedding > div > div > div {
+  display: block;
+  float: left;
+  width: 50%;
+  background-color: #f2e1e1;
+}
+#background_color2:after {
+  float: none;
+  clear: both;
+  content: "";
+  display: block;
+}
+#rsvp {
+  width: 100%;
+  padding: 64px 16px;
+  text-align: center;
+  background-color: #ffdddd;
+  line-height: 1.5;
+}
+#rsvp h1 {
+  font-size: 34px;
+  margin: 10px 0;
+  letter-spacing: 4px;
+}
+#rsvp p:first-child {
+  font-size: 18px;
+  margin: 18px;
+  letter-spacing: 4px;
+}
+#rsvp p:last-child button {
+  font-size: 24px;
+  padding: 8px 60px;
+  background-color: #f44336;
+  color: white;
+  letter-spacing: 0;
+  border: none;
+  opacity: 0.6;
+  border-radius: 4px;
+}
+#footer {
+  width: 100%;
+  padding: 16px 0;
+  background-color: #000;
+  text-align: center;
+  margin-bottom: 30px;
+}
+#footer p {
+  margin: 15px 0px;
+  color: white;
+  font-size: 15px;
+}
+#footer p a {
+  color: white;
+}

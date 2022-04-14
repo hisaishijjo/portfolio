@@ -1,0 +1,190 @@
+* {
+  font-family: "Karma";
+}
+.clearfix:after {
+  float: none;
+  display: block;
+  content: "";
+  clear: both;
+}
+#container {
+  width: 1200px;
+  margin: auto;
+}
+#header {
+  display: block;
+  width: 1200px;
+  height: auto;
+  position: fixed;
+  top: 0;
+  background-color: #fff;
+  font-size: 24px;
+  text-align: center;
+  padding: 16px 0;
+}
+#header span:first-child {
+  float: left;
+  padding: 0 16px;
+}
+#header span:first-child:hover {
+  background-color: #eee;
+}
+#header span:last-child {
+  float: right;
+}
+
+#section {
+  margin: auto;
+  width: 100%;
+  margin-top: 100px;
+  text-align: center;
+}
+.section1 {
+  padding: 16px 8px;
+}
+.section1_1 {
+  display: block;
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+.section1_1 img {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 0 8px;
+}
+.section1_1 h3 {
+  font-size: 24px;
+  margin: 10px 0;
+  font-weight: lighter;
+  padding: 0 8px;
+}
+.section1_1 p {
+  font-size: 15px;
+  margin: 15px 0;
+  padding: 0 8px;
+}
+
+#number {
+  display: block;
+  width: auto;
+  padding: 50px 0;
+  border-bottom: 1px solid #eee;
+}
+#number a {
+  margin: 0;
+  padding: 8px 16px;
+  text-decoration: none;
+  color: black;
+}
+#number a:hover {
+  background-color: black;
+  color: white;
+}
+#number a:nth-of-type(2) {
+  background-color: black;
+  color: white;
+}
+#number a:nth-of-type(2):hover {
+  background-color: #ccc;
+  color: black;
+}
+.section2 {
+  display: block;
+  margin: auto;
+  padding: 32px 16px;
+}
+.section2 h2 {
+  font-size: 24px;
+  margin: 10px 0;
+  font-weight: lighter;
+}
+.section2_txt {
+  padding: 32px 0;
+}
+.section2_txt p:first-child {
+  font-size: 16px;
+}
+.section2_txt p:nth-of-type(2) {
+  font-size: 15px;
+  margin: 15px 0;
+}
+#footer {
+  display: block;
+  padding: 32px 8px;
+}
+
+.footer1 {
+  display: block;
+  float: left;
+  width: 33.3%;
+}
+#footer h3 {
+  font-size: 24px;
+  margin: 10px 0;
+  font-weight: lighter;
+}
+#footer p {
+  font-size: 15px;
+  margin: 15px 0;
+}
+.footer2 {
+  padding: 0 8px;
+}
+.footer2 p a {
+  color: black;
+}
+.blog {
+  padding: 0 8px;
+}
+.blog ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.blog ul li {
+  display: block;
+  width: auto;
+  padding: 16px;
+}
+.blog ul li img {
+  width: 50px;
+  height: 50px;
+  float: left;
+  margin-right: 16px;
+}
+.blog ul li div {
+  display: block;
+}
+.blog ul li:first-child {
+  border-bottom: 1px solid #eee;
+}
+.popular {
+  display: block;
+  width: auto;
+  padding: 0 8px;
+}
+.popular > p {
+  display: block;
+  width: auto;
+  text-align: left;
+  margin: 15px 0;
+  padding: 0 50px 0 0;
+  word-wrap: break-word(5);
+}
+.popular p span {
+  display: inline-block;
+  padding: 6 8px;
+  background-color: #616161;
+  margin: 0 2px 16px 2px;
+  padding: 0 8px;
+  color: white;
+  font: 13px "Karma";
+  line-height: 1.5;
+}
+.popular p span:first-child {
+  background-color: #000;
+  font-size: 15px;
+  position: relative;
+}

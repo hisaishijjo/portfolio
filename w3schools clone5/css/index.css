@@ -1,0 +1,455 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    background-color: #f1f1f1;
+}
+.clearfix:after {
+    float: none;
+    display: block;
+    content: "";
+    clear: both;
+  }
+#container {
+    width: 1600px;
+    margin: auto;
+    display: block;
+}
+#fixed {
+    width: 300px;
+    height: 100%;
+    float: left;
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    display: block;
+}
+#fixed > div {
+    padding: 0 16px;
+}
+#fixed >div >img {
+    width: 45%;
+    border-radius: 5px;
+}
+#fixed > div >h4 {
+    margin: 10px 0;
+    font: bold 20px/1.5 "Raleway";
+}
+#fixed > div > p {
+    font: 15px "Raleway";
+    margin: 15px 0;
+    color: #757575;
+}
+#fixed > a{
+    padding: 8px 16px;
+    display: block;
+    text-decoration: none;
+    color: black;
+    font: 15px/1.5 "Raleway";
+}
+#fixed > a:hover {
+    background-color: #ccc;
+}
+#fixed >a > i {    
+    margin-right: 16px;
+}
+#fixed > a:nth-of-type(1){
+    color: #009688;
+}
+#fixed > a:nth-of-type(1):hover {
+    color: black;
+}
+#fixed div:last-child {
+    margin: 16px 0;
+    padding: 0px 16px;
+}
+#fixed >div >i {
+    font-size: 18px;
+}
+#content {
+    margin-left:300px;
+}
+#header {
+    padding: 0px 16px;
+}
+#header h1 {
+    font: bold 36px "Raleway";
+}
+#header > div {
+    margin: 16px 0;
+    padding: 16px 0;
+    border-bottom: 5px solid #ccc;
+}
+#header div > span {
+    margin-right: 16px;
+}
+#header div > button {
+    padding: 8px 16px;
+    font: 15px "Raleway";
+    cursor: pointer;
+    background-color: white;
+    border: none;
+    line-height: 1.5;
+}
+#header div >button:hover {
+    background-color: #ccc;
+}
+#header div >button:nth-of-type(1) {
+    color: #fff;
+    background-color: #000;
+}
+#header div >button:nth-of-type(1):hover {
+    color:black;
+    background-color:#ccc ;
+}
+#header >div >button > i {
+    margin-right: 10px;
+}
+#section1 {
+    display: block;
+}
+#section a1 {
+    display: block;
+}
+.a1_1 {
+    display: block;
+    padding: 0 8px;
+}
+.a1_1 > div {
+    display: block;
+    float: left;
+    width: 33.3%; 
+    margin-bottom:16px ;
+}
+.a1_1 >div >img {
+    width: 100%;
+    overflow:hidden;
+    box-sizing: border-box;
+    padding: 0 8px;   
+}
+.a1_1 >div >img:hover {
+    opacity: 0.7;
+}
+.section1_txt {
+    margin: 0 8px;
+    padding: 0 8px;
+    background-color: #fff;
+}
+.section1_txt > span {
+    display: block;
+    padding: 15px;
+    font: 15px "Raleway";
+}
+.b1 {
+    padding: 32px 0;
+    display: block;
+    text-align: center;
+}
+.b1 > a {
+    padding: 8px 16px;
+    font: 15px/1.5 "Raleway";
+}
+.b1 > a:hover {
+    background-color: #000;
+    color: #fff;
+}
+.b1 > a:nth-of-type(2) {
+    background-color: #000;
+    color: #fff;
+}
+.b1 > a:nth-of-type(2):hover {
+    background-color: #ccc;
+    color: #000;
+}
+.c1 {
+    display: block;
+    padding: 8px 16px;
+}
+.c1 > div {
+    float: left;
+    width: 50%;
+}
+.c1 >div >img {
+    width: 100%;
+    padding: 0 8px;
+    box-sizing: border-box;
+}
+#section2 {
+    padding: 12px 24px;
+    display: block;
+}
+#about h4 {
+    margin: 10px 0;
+    font: bold 20px "Raleway";
+}
+#about p {
+    margin: 15px 0;
+    font: 15px/1.5 "Raleway";
+}
+#about h4:nth-of-type(2) {
+    font-weight: lighter;
+}
+#about > div {
+    width: 100%;
+    
+    display: block;
+    background-color: #929292;
+}
+.gauge1 {
+    width: 95%;
+    padding: 8px 16px;
+    background-color: #616161;
+    display: block;
+    color: #fff;
+    text-align: center;
+}
+.gauge2 {
+    width: 85%;
+    padding: 8px 16px;
+    background-color: #616161;
+    display: block;
+    color: #fff;
+    text-align: center;
+}
+.gauge3 {
+    width: 80%;
+    padding: 8px 16px;
+    background-color: #616161;
+    display: block;
+    color: #fff;
+    text-align: center;
+}
+#about > button {
+    margin: 26px 0;
+    padding: 12px 24px;
+    background-color:#616161 ;
+    color: #fff;
+    border: none;
+    font: 15px/1.5 "Raleway";
+}
+#about > button:hover {
+    background-color: #ccc;
+    color: black;
+}
+#about >button > i {
+    font-size: 15px;
+    margin-right: 16px;
+}
+#table {
+    display: block;
+}
+.table > h4 {
+    margin: 10px 0;
+    font: 20px/1.5 "Raleway";
+}
+.table > div {
+    float: left;
+    width: 33.3%;
+    display: block;
+    list-style: none;
+    margin:0 0 16px 0;
+}
+.a2 {
+    padding: 0 8px;
+    margin-bottom: 16px;
+}
+.a2 ul {
+    list-style: none;
+    margin:0;
+    padding: 0;
+    text-align: center;
+    border: 1px solid #ccc;
+    opacity: 0.7;
+}
+.a2 ul:hover {
+    opacity: 1;
+}
+.a2 ul li {
+    padding: 16px;
+    font: 15px/1.5 "Raleway";
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+.a2 > ul li:nth-of-type(1) {
+    background-color: #000;
+    color: #fff;
+    padding: 32px 16px;
+    font: 24px/1.5 "Raleway";
+}
+.a2 > ul li:nth-of-type(6) h2{
+    margin: 10px 0;
+    font: 30px/1.5 "Raleway";
+}
+.a2 > ul li:nth-of-type(7) {
+    background-color: #f1f1f1;
+    padding: 24px 16px;
+}
+.a2 > ul button {
+    padding: 12px 24px;
+    border: none;
+    color: white;
+    background-color: #009688;
+    font: 15px/1.5 "Raleway";
+}
+.a2 > ul button:hover {
+    background-color: #000;
+    color: #fff;
+}
+#a2_pro {
+    background-color: #009688;
+}
+#contact {
+    padding: 12px 24px;
+    display: block;
+    background-color:#9e9e9e ;
+}
+#contact >h4 {
+    margin: 10px 0;
+    font: bold 20px/1.5 "Raleway";
+}
+.contact1 {
+    padding: 24px 8px;
+}
+.contact1 > div {
+    float: left;
+    width: 33.3%;
+    background-color: #616161;
+    text-align: center;
+    color: #fff;
+}
+.contact1 > div:nth-of-type(2) {
+    background-color: #009688;
+}
+.contact1 > div > p {
+    margin: 15px 0;
+}
+.contact1 > div > p >i {
+    font-size:30px;
+    padding: 10px 0;
+}
+#contact hr {
+    margin: 20px 0 ;
+}
+
+#contact form >div {
+    margin: 16px 0;
+}
+#contact form input {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    padding: 8px;
+}
+#contact form button {
+    border: none;
+    background-color: #000;
+    color: #fff;
+    padding: 8px 16px;
+    margin-bottom: 16px;
+    font: 15px/1.5 "Raleway";
+}
+#contact form button:hover {
+    background-color: #ccc;
+    color: black;
+}
+#contact form button i {
+    font-size: 15px;
+    margin-right:16px;
+
+}
+#footer {
+    display: block;
+}
+.footer1 {
+    display: block;
+    background-color: #616161;
+    color: #fff;
+    padding: 32px 16px;
+}
+.footer1 div  {
+    width: 33.3%;
+    float: left;
+    box-sizing: border-box;
+    padding: 0 8px;
+}
+.footer1 h3 {
+    margin: 10px 0;
+    font: 24px/1.5 "Raleway";
+}
+.a3 p {
+    margin: 15px 0;
+    font: 15px/1.5 "Raleway";
+}
+.a3 p a {
+    color: #fff;
+}
+.b3 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.b3 li {
+    padding: 16px;
+    position: relative;
+}
+.b3 li:hover {
+    background-color: #ccc;
+}
+.b3 li img {
+    width: 50px;
+    height: 50px;
+    margin-right: 16px;
+    
+}
+.b3 li:first-child {
+    border-bottom: 1px solid #fff;
+}
+.b3 li span:nth-of-type(1) {
+    display: block;
+    position: absolute;
+    left:20%;
+    top: 20%;
+    font: 18px/1.5 "Raleway";
+}
+.b3 li span:nth-of-type(2) {
+    display: block;
+    position: absolute;
+    left:20%;
+    top: 50%;
+    font: 15px/1.5 "Raleway";
+}
+.c3 {
+    display: block;
+}
+.c3 p {
+    margin: 15px 0;
+}
+.c3 span {
+    display: inline-block;
+    padding: 0 8px;
+    font: 12px/1.5 "Raleway";
+    margin-bottom: 16px;
+    background-color: #9e9e9e;
+    color: #000;
+}
+.c3 span:first-child {
+    background-color: #000;
+    color: #fff;
+    line-height: 2;
+}
+.footer2 {
+    display: block;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+.footer2 p {
+    margin: 0;
+    padding: 24px 0;
+    font: 16px/1.5 "Raleway";
+}
+.footer2 p a {
+    color: #fff;
+}
