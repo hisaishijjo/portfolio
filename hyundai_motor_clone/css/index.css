@@ -1,5 +1,9 @@
+@font-face {
+    font-family: Hyundai;
+    src: local('Hyundai Sans Text KR Medium'), url('../font/Hyundai\ Sans\ Text\ KR\ Medium.ttf') format('truetype');
+}
 * {
-    font-family: "Hyundai sans Text KR Medium";
+    font-family: Hyundai;
 }
 html,body {
     padding: 0;
