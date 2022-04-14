@@ -157,7 +157,7 @@ a {
 
 }
 #hover2_2 form div input {
-    width: 517px;
+    width: 490px;
     height: 50px;
     padding-left: 20px;
     border: none;
@@ -169,12 +169,12 @@ a {
     font-size: 20px;
     position: absolute;
     top: 50%;
+    right: 0;
     transform: translate(-50%,-50%);
     
 }
-#hover2_2 form div button img {
-    width: 55px;
-    height: 50px;
+#hover2_2 form div button i {
+    font-size: 15px;
 }
 #hover2_2 > div {
     display: block;

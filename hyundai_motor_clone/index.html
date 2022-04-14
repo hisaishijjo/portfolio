@@ -254,6 +254,10 @@
         </div>
     </div>
 </div>
+
+ <!-- 공지사항 알림 -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fslightbox/3.3.1/index.min.js"></script>
+<script src="js/notice.js"></script>
 <script src="js/index.js"></script>
 <script>
     (async (e)=> {
@@ -333,6 +337,9 @@
         });
         document.querySelector('#article7_1').appendChild(div);
     })();
+
+    // Notice.init('본인이름', 'pdf파일경로');
+    Notice.init('이교헌', './작업명세서.pdf');
 </script>
 </body>
 </html>
